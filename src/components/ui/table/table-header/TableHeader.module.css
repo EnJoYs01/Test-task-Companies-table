@@ -1,0 +1,5 @@
+.tableHeader {
+	tr th {
+    border-top: none;
+  }
+}

@@ -1,0 +1,13 @@
+.tableRow {
+	>td:first-child, th:first-child {
+		border-left: none;
+	}
+	
+	>td:last-child, th:last-child {
+		border-right: none;
+	}
+	
+	&:last-child td, th {
+		border-bottom: none;
+	}
+}

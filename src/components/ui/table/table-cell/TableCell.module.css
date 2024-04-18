@@ -1,0 +1,27 @@
+.tableCell {
+	height: 62px;
+	> div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		> input {
+			margin: 0;
+			border: none;
+			outline: none;
+		}
+	}
+	
+	> span {
+		color: white;
+		padding: 20px;
+	}
+}
+
+.tableHCell {
+	padding: 10px;
+}
+
+.selected {
+	background-color: #9c9c9c;
+}

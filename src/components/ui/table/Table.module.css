@@ -1,0 +1,45 @@
+.table {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid white;
+    th, td {
+      border: 1px solid rgba(255, 255, 255, 0.562);
+    }
+  }
+  
+  .tableManage {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    > button {
+      display: flex;
+      width: 35px;
+      height: 35px;
+      outline: none;
+      border: none;
+      background-color: #999999;
+      border-radius: 5px;
+      padding: 5px 10px 8px 10px;
+      line-height: 1;
+      font-weight: normal;
+      font-size: 23px;
+      justify-content: center;
+      align-items: center;
+      transition: color 0.2s ease-in-out;
+      
+      &:first-of-type {
+        font-size: 28px;
+      }
+      
+      &:hover {
+        color: red;
+        border: 1px solid rgb(206, 87, 87);
+      }
+    }
+  }
+}
+
